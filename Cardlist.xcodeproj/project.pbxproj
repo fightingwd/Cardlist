@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C53353A2487DA6800300CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5335392487DA6800300CEC /* AppDelegate.swift */; };
+		0C53353C2487DA6800300CEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53353B2487DA6800300CEC /* SceneDelegate.swift */; };
+		0C53353E2487DA6800300CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53353D2487DA6800300CEC /* ViewController.swift */; };
+		0C5335412487DA6800300CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C53353F2487DA6800300CEC /* Main.storyboard */; };
+		0C5335432487DA6900300CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5335422487DA6900300CEC /* Assets.xcassets */; };
+		0C5335462487DA6900300CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5335442487DA6900300CEC /* LaunchScreen.storyboard */; };
+		0C5335512487DA6900300CEC /* CardlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5335502487DA6900300CEC /* CardlistTests.swift */; };
+		0C53355C2487DA6900300CEC /* CardlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53355B2487DA6900300CEC /* CardlistUITests.swift */; };
+		0C53356C2487DA9800300CEC /* CardlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53356B2487DA9800300CEC /* CardlistViewController.swift */; };
+		0C53356F2487DAEF00300CEC /* CardlistBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53356E2487DAEF00300CEC /* CardlistBaseViewModel.swift */; };
+		0C5335742487EC7300300CEC /* CardlistBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5335732487EC7300300CEC /* CardlistBaseModel.swift */; };
+		0C53357724893EC900300CEC /* CardlistBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53357624893EC900300CEC /* CardlistBaseCell.swift */; };
+		0C5335792489453200300CEC /* CardlistTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5335782489453200300CEC /* CardlistTitleCell.swift */; };
+		0C53357E248A8AC400300CEC /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53357D248A8AC400300CEC /* UIView+Frame.swift */; };
+		0C533581248A986200300CEC /* ImageCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C533580248A986200300CEC /* ImageCardModel.swift */; };
+		0C533583248B339500300CEC /* CardlistCellModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C533582248B339500300CEC /* CardlistCellModelManager.swift */; };
+		0C89A57B2494C5FD00CC997D /* CardlistImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89A57A2494C5FD00CC997D /* CardlistImgCell.swift */; };
+		0C89A57E2494C64300CC997D /* TitleCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89A57D2494C64300CC997D /* TitleCardModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C53354D2487DA6900300CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C53352E2487DA6800300CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C5335352487DA6800300CEC;
+			remoteInfo = Cardlist;
+		};
+		0C5335582487DA6900300CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C53352E2487DA6800300CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C5335352487DA6800300CEC;
+			remoteInfo = Cardlist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5335362487DA6800300CEC /* Cardlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5335392487DA6800300CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C53353B2487DA6800300CEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0C53353D2487DA6800300CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C5335402487DA6800300CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C5335422487DA6900300CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C5335452487DA6900300CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C5335472487DA6900300CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C53354C2487DA6900300CEC /* CardlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5335502487DA6900300CEC /* CardlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistTests.swift; sourceTree = "<group>"; };
+		0C5335522487DA6900300CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5335572487DA6900300CEC /* CardlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C53355B2487DA6900300CEC /* CardlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistUITests.swift; sourceTree = "<group>"; };
+		0C53355D2487DA6900300CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C53356B2487DA9800300CEC /* CardlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistViewController.swift; sourceTree = "<group>"; };
+		0C53356E2487DAEF00300CEC /* CardlistBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistBaseViewModel.swift; sourceTree = "<group>"; };
+		0C5335732487EC7300300CEC /* CardlistBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistBaseModel.swift; sourceTree = "<group>"; };
+		0C53357624893EC900300CEC /* CardlistBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistBaseCell.swift; sourceTree = "<group>"; };
+		0C5335782489453200300CEC /* CardlistTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistTitleCell.swift; sourceTree = "<group>"; };
+		0C53357D248A8AC400300CEC /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		0C533580248A986200300CEC /* ImageCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCardModel.swift; sourceTree = "<group>"; };
+		0C533582248B339500300CEC /* CardlistCellModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistCellModelManager.swift; sourceTree = "<group>"; };
+		0C89A57A2494C5FD00CC997D /* CardlistImgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlistImgCell.swift; sourceTree = "<group>"; };
+		0C89A57D2494C64300CC997D /* TitleCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCardModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C5335332487DA6800300CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5335492487DA6900300CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5335542487DA6900300CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C53352D2487DA6800300CEC = {
+			isa = PBXGroup;
+			children = (
+				0C5335382487DA6800300CEC /* Cardlist */,
+				0C53354F2487DA6900300CEC /* CardlistTests */,
+				0C53355A2487DA6900300CEC /* CardlistUITests */,
+				0C5335372487DA6800300CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C5335372487DA6800300CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C5335362487DA6800300CEC /* Cardlist.app */,
+				0C53354C2487DA6900300CEC /* CardlistTests.xctest */,
+				0C5335572487DA6900300CEC /* CardlistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C5335382487DA6800300CEC /* Cardlist */ = {
+			isa = PBXGroup;
+			children = (
+				0C89A57C2494C63500CC997D /* TitleCard */,
+				0C53357F248A985100300CEC /* ImageCard */,
+				0C53357B248A8AA900300CEC /* Utilities */,
+				0C53357A2489456100300CEC /* ViewController */,
+				0C53357524893E9C00300CEC /* Cell */,
+				0C53356D2487DAC600300CEC /* Data */,
+				0C5335392487DA6800300CEC /* AppDelegate.swift */,
+				0C53353B2487DA6800300CEC /* SceneDelegate.swift */,
+				0C53353D2487DA6800300CEC /* ViewController.swift */,
+				0C53353F2487DA6800300CEC /* Main.storyboard */,
+				0C5335422487DA6900300CEC /* Assets.xcassets */,
+				0C5335442487DA6900300CEC /* LaunchScreen.storyboard */,
+				0C5335472487DA6900300CEC /* Info.plist */,
+			);
+			path = Cardlist;
+			sourceTree = "<group>";
+		};
+		0C53354F2487DA6900300CEC /* CardlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C5335502487DA6900300CEC /* CardlistTests.swift */,
+				0C5335522487DA6900300CEC /* Info.plist */,
+			);
+			path = CardlistTests;
+			sourceTree = "<group>";
+		};
+		0C53355A2487DA6900300CEC /* CardlistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C53355B2487DA6900300CEC /* CardlistUITests.swift */,
+				0C53355D2487DA6900300CEC /* Info.plist */,
+			);
+			path = CardlistUITests;
+			sourceTree = "<group>";
+		};
+		0C53356D2487DAC600300CEC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C53356E2487DAEF00300CEC /* CardlistBaseViewModel.swift */,
+				0C5335732487EC7300300CEC /* CardlistBaseModel.swift */,
+				0C533582248B339500300CEC /* CardlistCellModelManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0C53357524893E9C00300CEC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0C53357624893EC900300CEC /* CardlistBaseCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0C53357A2489456100300CEC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C53356B2487DA9800300CEC /* CardlistViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0C53357B248A8AA900300CEC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0C53357C248A8AB600300CEC /* Extension */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0C53357C248A8AB600300CEC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C53357D248A8AC400300CEC /* UIView+Frame.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0C53357F248A985100300CEC /* ImageCard */ = {
+			isa = PBXGroup;
+			children = (
+				0C89A57A2494C5FD00CC997D /* CardlistImgCell.swift */,
+				0C533580248A986200300CEC /* ImageCardModel.swift */,
+			);
+			path = ImageCard;
+			sourceTree = "<group>";
+		};
+		0C89A57C2494C63500CC997D /* TitleCard */ = {
+			isa = PBXGroup;
+			children = (
+				0C5335782489453200300CEC /* CardlistTitleCell.swift */,
+				0C89A57D2494C64300CC997D /* TitleCardModel.swift */,
+			);
+			path = TitleCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C5335352487DA6800300CEC /* Cardlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5335602487DA6900300CEC /* Build configuration list for PBXNativeTarget "Cardlist" */;
+			buildPhases = (
+				0C5335322487DA6800300CEC /* Sources */,
+				0C5335332487DA6800300CEC /* Frameworks */,
+				0C5335342487DA6800300CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardlist;
+			productName = Cardlist;
+			productReference = 0C5335362487DA6800300CEC /* Cardlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C53354B2487DA6900300CEC /* CardlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5335632487DA6900300CEC /* Build configuration list for PBXNativeTarget "CardlistTests" */;
+			buildPhases = (
+				0C5335482487DA6900300CEC /* Sources */,
+				0C5335492487DA6900300CEC /* Frameworks */,
+				0C53354A2487DA6900300CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C53354E2487DA6900300CEC /* PBXTargetDependency */,
+			);
+			name = CardlistTests;
+			productName = CardlistTests;
+			productReference = 0C53354C2487DA6900300CEC /* CardlistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C5335562487DA6900300CEC /* CardlistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5335662487DA6900300CEC /* Build configuration list for PBXNativeTarget "CardlistUITests" */;
+			buildPhases = (
+				0C5335532487DA6900300CEC /* Sources */,
+				0C5335542487DA6900300CEC /* Frameworks */,
+				0C5335552487DA6900300CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C5335592487DA6900300CEC /* PBXTargetDependency */,
+			);
+			name = CardlistUITests;
+			productName = CardlistUITests;
+			productReference = 0C5335572487DA6900300CEC /* CardlistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C53352E2487DA6800300CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = m;
+				TargetAttributes = {
+					0C5335352487DA6800300CEC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					0C53354B2487DA6900300CEC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0C5335352487DA6800300CEC;
+					};
+					0C5335562487DA6900300CEC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 0C5335352487DA6800300CEC;
+					};
+				};
+			};
+			buildConfigurationList = 0C5335312487DA6800300CEC /* Build configuration list for PBXProject "Cardlist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C53352D2487DA6800300CEC;
+			productRefGroup = 0C5335372487DA6800300CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C5335352487DA6800300CEC /* Cardlist */,
+				0C53354B2487DA6900300CEC /* CardlistTests */,
+				0C5335562487DA6900300CEC /* CardlistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C5335342487DA6800300CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5335462487DA6900300CEC /* LaunchScreen.storyboard in Resources */,
+				0C5335432487DA6900300CEC /* Assets.xcassets in Resources */,
+				0C5335412487DA6800300CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C53354A2487DA6900300CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5335552487DA6900300CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C5335322487DA6800300CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C53356C2487DA9800300CEC /* CardlistViewController.swift in Sources */,
+				0C53353E2487DA6800300CEC /* ViewController.swift in Sources */,
+				0C533583248B339500300CEC /* CardlistCellModelManager.swift in Sources */,
+				0C53356F2487DAEF00300CEC /* CardlistBaseViewModel.swift in Sources */,
+				0C5335792489453200300CEC /* CardlistTitleCell.swift in Sources */,
+				0C5335742487EC7300300CEC /* CardlistBaseModel.swift in Sources */,
+				0C53357724893EC900300CEC /* CardlistBaseCell.swift in Sources */,
+				0C89A57E2494C64300CC997D /* TitleCardModel.swift in Sources */,
+				0C533581248A986200300CEC /* ImageCardModel.swift in Sources */,
+				0C53353A2487DA6800300CEC /* AppDelegate.swift in Sources */,
+				0C53353C2487DA6800300CEC /* SceneDelegate.swift in Sources */,
+				0C53357E248A8AC400300CEC /* UIView+Frame.swift in Sources */,
+				0C89A57B2494C5FD00CC997D /* CardlistImgCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5335482487DA6900300CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5335512487DA6900300CEC /* CardlistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5335532487DA6900300CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C53355C2487DA6900300CEC /* CardlistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C53354E2487DA6900300CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C5335352487DA6800300CEC /* Cardlist */;
+			targetProxy = 0C53354D2487DA6900300CEC /* PBXContainerItemProxy */;
+		};
+		0C5335592487DA6900300CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C5335352487DA6800300CEC /* Cardlist */;
+			targetProxy = 0C5335582487DA6900300CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C53353F2487DA6800300CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5335402487DA6800300CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C5335442487DA6900300CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5335452487DA6900300CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C53355E2487DA6900300CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C53355F2487DA6900300CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C5335612487DA6900300CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cardlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.Cardlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C5335622487DA6900300CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cardlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.Cardlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C5335642487DA6900300CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardlistTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.CardlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardlist.app/Cardlist";
+			};
+			name = Debug;
+		};
+		0C5335652487DA6900300CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardlistTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.CardlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardlist.app/Cardlist";
+			};
+			name = Release;
+		};
+		0C5335672487DA6900300CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.CardlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardlist;
+			};
+			name = Debug;
+		};
+		0C5335682487DA6900300CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = m.CardlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardlist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5335312487DA6800300CEC /* Build configuration list for PBXProject "Cardlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C53355E2487DA6900300CEC /* Debug */,
+				0C53355F2487DA6900300CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5335602487DA6900300CEC /* Build configuration list for PBXNativeTarget "Cardlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5335612487DA6900300CEC /* Debug */,
+				0C5335622487DA6900300CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5335632487DA6900300CEC /* Build configuration list for PBXNativeTarget "CardlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5335642487DA6900300CEC /* Debug */,
+				0C5335652487DA6900300CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5335662487DA6900300CEC /* Build configuration list for PBXNativeTarget "CardlistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5335672487DA6900300CEC /* Debug */,
+				0C5335682487DA6900300CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C53352E2487DA6800300CEC /* Project object */;
+}
